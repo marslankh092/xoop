@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Notification"
+            android:icon="@drawable/iconfinder_bell_1814091"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_franchise"
+            android:icon="@drawable/iconfinder_house_384890"
+            android:title="Franchises" />
+        <item
+            android:id="@+id/nav_MyBooking"
+            android:icon="@drawable/iconfinder_gift_18_998674"
+            android:title="My Booking" />
+        <item
+            android:id="@+id/nav_TrackParcel"
+            android:icon="@drawable/iconfinder_trackparcel"
+            android:title="Track Parcel" />
+        <item
+            android:id="@+id/nav_Setting"
+            android:icon="@drawable/iconfinder_ui_42_sett"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/nav_Rate"
+            android:icon="@drawable/icon_rate"
+            android:title="Rate" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/iconfinder_lgout"
+            android:title="Logout" />
+
+    </group>
+
+
+
+</menu>

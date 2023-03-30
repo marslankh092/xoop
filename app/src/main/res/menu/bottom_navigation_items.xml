@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+
+        android:id="@+id/action_Schedule"
+        android:icon="@drawable/ic_gift"
+        android:title="Schedule " />
+    <item
+        android:id="@+id/action_Franchises"
+        android:icon="@drawable/ic_home"
+        android:title="Franchises" />
+    <item
+        android:id="@+id/action_Bookings"
+        android:icon="@drawable/ic_calander"
+        android:title="Bookings "/>
+    <item
+        android:id="@+id/action_Track"
+        android:icon="@drawable/ic_find"
+        android:title="Track "/>
+
+</menu>

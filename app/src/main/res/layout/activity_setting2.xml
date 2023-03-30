@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#939997"
+    tools:context=".FranchiseOnly.SettingActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:background="@drawable/backrect">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:text="Settings"
+            android:drawableStart="@drawable/ic_arrow11"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ic_arrow11" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_marginTop="32dp"
+            android:id="@+id/tabLayout"
+            android:layout_width="250dp"
+            app:tabIndicatorFullWidth="false"
+             android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tabIndicatorColor="@color/white"
+            app:tabTextAppearance="@style/MyCustomTextAppearance"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/white" />
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

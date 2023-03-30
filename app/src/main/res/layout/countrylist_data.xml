@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fImage"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@drawable/senayan"
+            />
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/fImage"
+            android:text="Senayan"
+            android:textColor="#484848"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/fImage" />
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/fdesc"
+            android:textColor="#5d22db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/fname"
+            android:layout_below="@+id/fname"
+            android:text="Malus Domenstica"
+            android:textSize="13dp"
+            android:layout_alignLeft="@+id/fname" />
+    </RelativeLayout>
+</LinearLayout>
